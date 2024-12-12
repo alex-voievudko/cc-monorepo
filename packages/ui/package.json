@@ -10,7 +10,8 @@
   },
   "scripts": {
     "generate:component": "turbo gen react-component",
-    "check-types": "tsc --noEmit"
+    "check-types": "tsc --noEmit",
+    "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
   },
   "devDependencies": {
     "@card-corp/typescript-config": "workspace:*",
