@@ -7,6 +7,7 @@
     "dev:admin": "turbo dev --filter=admin",
     "dev:docs": "turbo dev --filter=docs",
     "dev:web": "turbo dev --filter=web",
+    "dev:storybook": "turbo dev --filter=storybook",
     "lint": "biome check .",
     "lint:fix": "biome check . --write",
     "changeset": "changeset",
