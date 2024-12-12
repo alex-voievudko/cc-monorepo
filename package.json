@@ -4,9 +4,9 @@
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
-    "dev:admin": "turbo dev --filter=@card-corp/admin",
-    "dev:docs": "turbo dev --filter=@card-corp/docs",
-    "dev:web": "turbo dev --filter=@card-corp/web",
+    "dev:admin": "turbo dev --filter=admin",
+    "dev:docs": "turbo dev --filter=docs",
+    "dev:web": "turbo dev --filter=web",
     "lint": "biome check .",
     "lint:fix": "biome check . --write",
     "check-types": "turbo check-types",
