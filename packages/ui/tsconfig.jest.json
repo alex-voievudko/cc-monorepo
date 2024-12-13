@@ -1,0 +1,6 @@
+{
+  "extends": "@card-corp/typescript-config/nextjs.json",
+  "compilerOptions": {
+    "jsx": "react-jsx"
+  }
+}
